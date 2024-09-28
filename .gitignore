@@ -1,0 +1,87 @@
+# Python compiled files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Virtual Environment (venv)
+venv/
+env/
+ENV/
+*.env
+.venv/
+bin/
+lib/
+include/
+pyvenv.cfg
+
+# Flask-related
+instance/          # Instance folder for sensitive information (config, secret keys)
+*.db               # SQLite database files
+*.sqlite3          # SQLite database files
+*.log              # Log files
+
+# System files
+.DS_Store          # macOS file system files
+Thumbs.db          # Windows file system files
+
+# Python package management files
+*.egg
+*.egg-info/
+.eggs/
+
+# PyTest cache
+.cache/
+
+# Migrations and Alembic
+migrations/versions/*.pyc
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# IDE-specific files
+.vscode/
+.idea/
+
+# Node.js (if you're using npm for frontend assets or tools)
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Environment variables
+.env                # Environment variable file
+.env.*              # Any environment-related files
+
+# Docker
+docker-compose.yml
+.dockerignore
+Dockerfile
+
+# Coverage reports
+.coverage
+htmlcov/
+*.cover
+*.coverage
+
+# Distribution / packaging
+build/
+dist/
+*.wheel
+*.egg-info/
+.eggs/
+
+# Byte-compiled / optimized / compiled Python modules
+*.pyc
+*.pyo
+*.pyd
+
+# Test coverage and cache files
+.tox/
+.nox/
+
+# Pipenv
+Pipfile.lock
+
+# Celery worker log files
+celerybeat-schedule
