@@ -211,5 +211,5 @@ We welcome contributions! Please read our [CONTRIBUTING](CONTRIBUTING.md) guidel
 
 If you have any questions, feel free to reach out to:
 
-- **Email**: your-email@example.com
+- **Email**: okedieugine@gmail.com
 - **GitHub**: eugineokedi(https://github.com/eugineokedi)
